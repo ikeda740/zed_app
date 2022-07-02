@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>zed_app</name>
+  <version>0.0.0</version>
+  <description>ZED applications</description>
+
+  <maintainer email="schroeder@todo.todo">schroeder</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+
+  <exec_depend>zed_wrapper</exec_depend>
+</package>
