@@ -48,7 +48,7 @@ void depthCallback(const sensor_msgs::Image::ConstPtr& msg)
       if (depth_area.size() > 0){
         g_depth[k++] = median(depth_area);
       }  else {
-        g_depth[k++] = 0.0;
+        g_depth[k++] = 10.0; // max depth for zed mini
       }
     }
   }
